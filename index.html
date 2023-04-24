@@ -4,9 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="Estilos/styles.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="dist/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  </head>
+
 <body>
-    <h1>Mi pagina</h1>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #e3f2fd;">
+
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <!--boton-->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!---->
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                
+              </div>
+            </div>
+          </nav>
+
+        <!--Banner-->
+        <img src="Imagenes/Banner.webp" class="foto_banner">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col"><img src="Imagenes/Foto_de_perfil.png" class="foto_de_perfil" ></div>
+            </div>
+        </div>
+    </header>
+
+    
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script>
 </body>
 </html>
+
+<!--
+<nav>
+    <div class="container"></div>
+        <div class="row">
+            <div class="col"><img src="Imagenes/Logotipo.png" class="Logotipo"></div>
+    </div>
+
+    <div class="container"> Agregar un estilo a las col
+        <div class="row">
+            <div class="col">Acerca de mi</div> Utilizar enlaces
+            <div class="col">Habilidades </div>
+            <div class="col">Curriculum  </div>
+            <div class="col">Contacto </div>
+        </div>
+    </div>
+</nav>
+-->

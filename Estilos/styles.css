@@ -1,0 +1,22 @@
+.background_nav{
+    background-color: black;
+
+}
+.Logotipo{
+    width: 70px;
+    background-color: #e3f2fd;
+}
+.foto_banner{
+    width: 80%;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 10% ;
+    border-radius: 10px;
+}
+.foto_de_perfil{
+    width: 200px;
+    height: 200;
+    margin-right: 100%;
+    margin-top: -100px;
+    border-radius: 100px;
+}
