@@ -11,27 +11,69 @@
     <link href="dist/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    
+    <script src="https://kit.fontawesome.com/4220b94ecd.js" crossorigin="anonymous"></script>
   </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #e3f2fd;">
-              <div class="container-fluid">
-                <div class="navbar-brand" href="#">
-                  <img src="Imagenes/Logotipo.png" width="100" height="100" style="border-radius: 10px;">
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Features</a>
-                    <a class="nav-link" href="#">Pricing</a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index2.html">
+          <img id=logo class="img-fluid" src="" alt="Logo" width="60" height="30" class="d-inline-block align-text-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-0 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index2.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="SobreMi.html">Sobre Mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <ul class="list-group list-group-horizontal">
+              <li class="list-group-item"><a class=link href="http://instagram.com/"><i class="fa-brands fa-instagram fa-2x" type="button"></i></a>                                      </li>
+              <li class="list-group-item"><a class=link href="http://facebook.com/"><i class="fa-brands fa-facebook fa-2x"></i> </a>  
+              <li class="list-group-item"><a class=link href="http://twitter.com/"><i class="fa-brands fa-twitter fa-2x"></i> </a>  
+              <li class="list-group-item"><i class="fa-solid fa-user fa-2x" type="button" class="btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#exampleModal"data-bs-whatever="@getbootstrap" >
+              </i> 
+            </ul>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Ingresar</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div> 
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Usuario</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="mb-3">
+                        <label for="inputPassword" class="col-form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="inputPassword">
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Ingresar</button>
+                    <button type="button" class="btn btn-secondary">Olvide la contraseña</button>
                   </div>
                 </div>
               </div>
-          </nav>
+            </div>
+          </div>
+        </div>
+      </nav>
 
         <!--Banner-->
         <img src="Imagenes/Banner.webp" class="foto_banner">
@@ -43,9 +85,14 @@
         </div>
     </header>
 
+    <main>
+      <h1>Acerca de mi</h1>
+      <p>Titulo: Full Satack Developer <br> Experiencia laborar: Aysa <br>  </p>
+    </main>
+
+
+
     
-
-
     <!-- Bootstrap JS -->
     <script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- Bootstrap JS -->
@@ -53,13 +100,15 @@
 </body>
 </html>
 
+
+
+
 <!--
 <nav>
     <div class="container"></div>
         <div class="row">
             <div class="col"><img src="Imagenes/Logotipo.png" class="Logotipo"></div>
     </div>
-
     <div class="container"> Agregar un estilo a las col
         <div class="row">
             <div class="col">Acerca de mi</div> Utilizar enlaces
@@ -70,3 +119,21 @@
     </div>
 </nav>
 -->
+
+        <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #e3f2fd;">
+              <div class="container-fluid">
+                <div class="navbar-brand" href="#">
+                  <img src="Imagenes/Logotipo.png" width="100" height="100" style="border-radius: 10px;">
+                </div>
+                <button class="navbar-toggler" value="button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-link active" href="#">Sobre mi</a>
+                    <a class="nav-link" href="#">Habilidades</a>
+                    <a class="nav-link" href="#">Curriculum</a>
+                  </div>
+                </div>
+              </div>
+          </nav> -->
